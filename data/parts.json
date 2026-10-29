@@ -1,0 +1,71 @@
+{
+ "parts": {
+  "10-data-protection.json": {
+   "acts": [
+    "prostasia-dedomenon"
+   ],
+   "sha256": "ee7b48339949af4700004e090be130bb510ccca7b7ee51b4c7b8dc72b781eb9d"
+  },
+  "20-constitution.json": {
+   "acts": [
+    "syntagma"
+   ],
+   "sha256": "bafd287ccd29bae78b144383f8f7a80eb1d91b774e6ad7536bf880dcedc9c965"
+  },
+  "30-criminal-code.json": {
+   "acts": [
+    "poinikos-kodikas"
+   ],
+   "sha256": "5ceb1c51122627e0dbbe2a2e57791ce41a4537e2a50ff2f67ce18f8568ae202b"
+  },
+  "40-criminal-procedure.json": {
+   "acts": [
+    "poiniki-dikonomia"
+   ],
+   "sha256": "0b9086ec86ffc0b3850d0e7acdad646c735753df5395ad371e55d3b85aaee4f9"
+  },
+  "50-civil-wrongs.json": {
+   "acts": [
+    "astika-adikimata"
+   ],
+   "sha256": "4cb57a866c322fcd58dbefe18fb45e74b7d828221065daa959312883b612396d"
+  },
+  "60-companies.json": {
+   "acts": [
+    "etaireies"
+   ],
+   "sha256": "95e6e3575e1cc3aa0a837379e947918397da5f3738b4dd386515142196dff331"
+  },
+  "70-civil-procedure.json": {
+   "acts": [
+    "politiki-dikonomia"
+   ],
+   "sha256": "542709cfff05b49957e885d04f11e25ea4ec762b500b616d24c44aa81921c1ea"
+  },
+  "80-courts-of-justice.json": {
+   "acts": [
+    "dikastiria-14-1960"
+   ],
+   "sha256": "79f0adb5e9da9a315822fbd49a9dc50ee212bd16dc97322c9d659573471a581b"
+  },
+  "81-civil-registry.json": {
+   "acts": [
+    "archeio-plithysmou"
+   ],
+   "sha256": "8f4c5bce1209f276cbed8352b29ede82c6114ec5c5403fb7372cc2d3e9346303"
+  },
+  "82-hotels.json": {
+   "acts": [
+    "xenodocheia"
+   ],
+   "sha256": "82e4ab5c06d8ef66c3a1b5107eb266403b4eb39bfe5e5252a163cecee7f1596c"
+  },
+  "83-municipalities.json": {
+   "acts": [
+    "dimoi"
+   ],
+   "sha256": "fd33ba94476f542de6a54f57d37ca3047130d66487fcde39b5265b97121fdc3a"
+  }
+ },
+ "schema": 1
+}
