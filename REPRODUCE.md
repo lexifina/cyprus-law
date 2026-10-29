@@ -52,7 +52,7 @@ Other counts:
 - 1 commits on the branch `mellon`: laws not yet in force on 2026-10-29.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
 - 391 laws in the record.
-- 167 tags.
+- 168 tags.
 
 ## Dates
 
