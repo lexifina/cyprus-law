@@ -1,0 +1,25 @@
+The legal texts come from CyLaw, the Cyprus Bar Association's legal information service, run by the
+Cyprus Institute of Legal Information (KINOP):
+
+  CyLaw, https://www.cylaw.org, consolidated legislation and Official Gazette extracts, read from
+  archived copies of its pages on the Internet Archive (https://web.archive.org), retrieved 2026-10-29.
+
+Terms, as CyLaw states them (https://www.cylaw.org/terms.html): material published on the site, including
+legislation, may be copied, printed and used free of charge and without further authorisation from KINOP,
+provided the documents identify CyLaw as their source. Bulk or systematic downloading from the site, including
+by automated processing, needs KINOP's prior written consent; no page was downloaded from cylaw.org for this
+repository: every page was read from an Internet Archive copy. Material may also be subject to conditions set
+by its original source.
+
+Attribution:
+
+  Πηγή: CyLaw (https://www.cylaw.org), Παγκύπριος Δικηγορικός Σύλλογος / ΚΙΝΟΠ.
+  Source: CyLaw (https://www.cylaw.org), Cyprus Bar Association / KINOP.
+
+This repository is private; whether and how it may be published is the owner's decision under these terms.
+
+Changes made by Lexifina: each version was converted to one Markdown file per provision, one paragraph per
+line; spacing, quotes, dashes and Latin look-alike letters inside Greek words were normalised; Part headings,
+CyLaw's editorial notes and footnotes were left out; and the versions were arranged as git commits credited to
+the laws CyLaw lists for each provision. The wording of the law was not changed. Neither CyLaw, KINOP nor the
+Cyprus Bar Association endorses this repository.

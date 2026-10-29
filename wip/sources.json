@@ -487,6 +487,15 @@
     "url": "http://www.cylaw.org:80/nomoi/arith/1996_1_099.pdf"
    }
   },
+  "gpo": {
+   "212(I)/2025": {
+    "date": "2025-12-12",
+    "issue": "5065",
+    "page": "https://www.mof.gov.cy/mof/gpo/gazette.nsf/All/F26786865DE08C5DC2258D5E00408AA0?OpenDocument",
+    "pdf": "https://www.mof.gov.cy/mof/gpo/gazette.nsf/F26786865DE08C5DC2258D5E00408AA0/$file/5065%2012%2012%202025%20PARARTΗMA%201o%20MEROS%20I.pdf",
+    "title": "Παρασκευή - 12/12/2025 - ΠΑΡΑΡΤΗΜΑ ΠΡΩΤΟ - ΜΕΡΟΣ (Ι) - Αρ. 5065"
+   }
+  },
   "instruments": [
    "ΚΕΦ.154",
    "3/1962",
@@ -590,6 +599,10 @@
     "ts": "20251107130414",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc00b55c00-bfe6-1ffa-5002-7225dc6a264e-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-sc09668165-1baa-4565-a443-316d626e6033-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html": {
+    "ts": "20260612021202",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc09668165-1baa-4565-a443-316d626e6033-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html"
+   },
    "/nomoi/enop/ind/0_154/section-sc09668165-1baa-4565-a443-316d626e6033-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251107120258",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc09668165-1baa-4565-a443-316d626e6033-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
@@ -686,6 +699,10 @@
     "ts": "20251107122700",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc5505eac1-2c27-43da-e314-02bec192eeab-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-sc55b38757-3295-4770-89f0-d8b92f249131-ai004af399-499d-7996-0373-ea6bd8895ceb.html": {
+    "ts": "20251107003034",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc55b38757-3295-4770-89f0-d8b92f249131-ai004af399-499d-7996-0373-ea6bd8895ceb.html"
+   },
    "/nomoi/enop/ind/0_154/section-sc55b38757-3295-4770-89f0-d8b92f249131-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251116071037",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc55b38757-3295-4770-89f0-d8b92f249131-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
@@ -738,13 +755,25 @@
     "ts": "20250710101456",
     "url": "http://cylaw.org/nomoi/enop/ind/0_154/section-sc6b17b54b-c73d-441d-a2cd-35aa043ff013-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-sc6b5f2a28-2aba-4385-6ce7-07d5b97c9d6f-aib1b5e826-c67d-4c16-967a-7736b717234c.html": {
+    "ts": "20260514201523",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc6b5f2a28-2aba-4385-6ce7-07d5b97c9d6f-aib1b5e826-c67d-4c16-967a-7736b717234c.html"
+   },
    "/nomoi/enop/ind/0_154/section-sc6bb33d32-918e-4269-aeec-aaf30e609333-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251110125752",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc6bb33d32-918e-4269-aeec-aaf30e609333-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-sc6d943e74-ea1e-4bcf-a8b2-a653f523f02d-ai3afe17df-06cc-69a9-bbc9-77f3a8c0fc10.html": {
+    "ts": "20251108094845",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc6d943e74-ea1e-4bcf-a8b2-a653f523f02d-ai3afe17df-06cc-69a9-bbc9-77f3a8c0fc10.html"
+   },
    "/nomoi/enop/ind/0_154/section-sc6d943e74-ea1e-4bcf-a8b2-a653f523f02d-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251115002645",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc6d943e74-ea1e-4bcf-a8b2-a653f523f02d-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
+   },
+   "/nomoi/enop/ind/0_154/section-sc7058c758-6b68-429a-aab1-d02856099f05-ai2954963e-f893-ac24-b392-df186ca174fd.html": {
+    "ts": "20261002224350",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc7058c758-6b68-429a-aab1-d02856099f05-ai2954963e-f893-ac24-b392-df186ca174fd.html"
    },
    "/nomoi/enop/ind/0_154/section-sc7058c758-6b68-429a-aab1-d02856099f05-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20250327074858",
@@ -770,6 +799,10 @@
     "ts": "20251107131939",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc7a4962b6-963d-497e-9b99-de18946d9f3b-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-sc81d89b42-a556-4b7d-bed9-a2d99695f982-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html": {
+    "ts": "20260422123233",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc81d89b42-a556-4b7d-bed9-a2d99695f982-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html"
+   },
    "/nomoi/enop/ind/0_154/section-sc81d89b42-a556-4b7d-bed9-a2d99695f982-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20260422120246",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc81d89b42-a556-4b7d-bed9-a2d99695f982-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
@@ -794,6 +827,10 @@
     "ts": "20250520065847",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc9173cb36-44c9-6b34-6e73-2e72eceeb7b5-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-sc99b7b2f6-e90f-4838-a3a1-c6e6506747ee-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html": {
+    "ts": "20250327072047",
+    "url": "http://cylaw.org/nomoi/enop/ind/0_154/section-sc99b7b2f6-e90f-4838-a3a1-c6e6506747ee-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html"
+   },
    "/nomoi/enop/ind/0_154/section-sc99b7b2f6-e90f-4838-a3a1-c6e6506747ee-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20250327072721",
     "url": "http://cylaw.org/nomoi/enop/ind/0_154/section-sc99b7b2f6-e90f-4838-a3a1-c6e6506747ee-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
@@ -801,6 +838,14 @@
    "/nomoi/enop/ind/0_154/section-sc9cd6997b-f34a-424e-87fd-cc3d0e97a826-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251114233426",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc9cd6997b-f34a-424e-87fd-cc3d0e97a826-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
+   },
+   "/nomoi/enop/ind/0_154/section-sc9e1cca96-2ae7-452f-8adb-32a6f15dfac8-ai44cd55d4-12ae-505b-b066-3a23c9c14959.html": {
+    "ts": "20250327060158",
+    "url": "http://cylaw.org/nomoi/enop/ind/0_154/section-sc9e1cca96-2ae7-452f-8adb-32a6f15dfac8-ai44cd55d4-12ae-505b-b066-3a23c9c14959.html"
+   },
+   "/nomoi/enop/ind/0_154/section-sc9e1cca96-2ae7-452f-8adb-32a6f15dfac8-ai81aee9ee-fd64-42c4-b34a-02138b1284b0.html": {
+    "ts": "20250523153506",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc9e1cca96-2ae7-452f-8adb-32a6f15dfac8-ai81aee9ee-fd64-42c4-b34a-02138b1284b0.html"
    },
    "/nomoi/enop/ind/0_154/section-sc9e1cca96-2ae7-452f-8adb-32a6f15dfac8-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20250419105124",
@@ -810,6 +855,10 @@
     "ts": "20250806220823",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sc9f901379-756f-465c-8c2a-7366fbe97ae1-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-sca2858ee2-875d-4207-8000-b192b89740a8-aie60f6df0-2c6c-1170-824c-335e776a1a43.html": {
+    "ts": "20260411104620",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sca2858ee2-875d-4207-8000-b192b89740a8-aie60f6df0-2c6c-1170-824c-335e776a1a43.html"
+   },
    "/nomoi/enop/ind/0_154/section-sca2858ee2-875d-4207-8000-b192b89740a8-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20260417180831",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sca2858ee2-875d-4207-8000-b192b89740a8-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
@@ -817,6 +866,10 @@
    "/nomoi/enop/ind/0_154/section-sca2fa9be7-bcb1-496c-aab4-24e9d20b051d-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251112044322",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sca2fa9be7-bcb1-496c-aab4-24e9d20b051d-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
+   },
+   "/nomoi/enop/ind/0_154/section-sca3318c8f-a7f0-4f8b-a7b1-b43af1200c4d-ai48b502f7-7f55-27fa-a568-b655b6b80867.html": {
+    "ts": "20250804040235",
+    "url": "http://cylaw.org/nomoi/enop/ind/0_154/section-sca3318c8f-a7f0-4f8b-a7b1-b43af1200c4d-ai48b502f7-7f55-27fa-a568-b655b6b80867.html"
    },
    "/nomoi/enop/ind/0_154/section-sca3318c8f-a7f0-4f8b-a7b1-b43af1200c4d-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20250514180522",
@@ -842,9 +895,21 @@
     "ts": "20250520055848",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scaed29111-fa9c-4a13-85d8-681b0eabe8f6-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-scb441f093-fd13-4e23-ae63-07acec9e39e1-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html": {
+    "ts": "20260514232611",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scb441f093-fd13-4e23-ae63-07acec9e39e1-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html"
+   },
    "/nomoi/enop/ind/0_154/section-scb441f093-fd13-4e23-ae63-07acec9e39e1-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20260618082608",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scb441f093-fd13-4e23-ae63-07acec9e39e1-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
+   },
+   "/nomoi/enop/ind/0_154/section-scbd247d50-b442-4ffc-b973-461db5c6de9b-ai52a0a3b7-c265-4aa0-a54e-03434ecebc54.html": {
+    "ts": "20251114231131",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scbd247d50-b442-4ffc-b973-461db5c6de9b-ai52a0a3b7-c265-4aa0-a54e-03434ecebc54.html"
+   },
+   "/nomoi/enop/ind/0_154/section-scbd247d50-b442-4ffc-b973-461db5c6de9b-aia5245d0d-a74a-acd9-2654-f02fd897b0e4.html": {
+    "ts": "20260411123115",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scbd247d50-b442-4ffc-b973-461db5c6de9b-aia5245d0d-a74a-acd9-2654-f02fd897b0e4.html"
    },
    "/nomoi/enop/ind/0_154/section-scbd247d50-b442-4ffc-b973-461db5c6de9b-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251115003351",
@@ -858,6 +923,10 @@
     "ts": "20260411111725",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scc0096f3a-a77c-4dfa-90b8-9bb1abb3e5ba-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-scc155e3df-109d-4f5f-8e6d-a0f2498930ad-aib024cebc-c6a9-0fee-5a9a-d4f9682978b2.html": {
+    "ts": "20251115002613",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scc155e3df-109d-4f5f-8e6d-a0f2498930ad-aib024cebc-c6a9-0fee-5a9a-d4f9682978b2.html"
+   },
    "/nomoi/enop/ind/0_154/section-scc155e3df-109d-4f5f-8e6d-a0f2498930ad-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20260616093545",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scc155e3df-109d-4f5f-8e6d-a0f2498930ad-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
@@ -870,9 +939,17 @@
     "ts": "20251115010225",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scc8cf480a-8cdd-3ed3-44b1-ddbfb0edf3e1-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
    },
+   "/nomoi/enop/ind/0_154/section-sccabdbb00-d9ef-4c9f-9a64-a2efdbf71c73-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html": {
+    "ts": "20251107123132",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sccabdbb00-d9ef-4c9f-9a64-a2efdbf71c73-ai34279dfa-5535-ee4f-fdee-8618af27a4cf.html"
+   },
    "/nomoi/enop/ind/0_154/section-sccabdbb00-d9ef-4c9f-9a64-a2efdbf71c73-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251107115324",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sccabdbb00-d9ef-4c9f-9a64-a2efdbf71c73-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
+   },
+   "/nomoi/enop/ind/0_154/section-scce2e4d44-febd-ecee-07d6-ac2e87c9be7d-ai6bad44f1-fe36-db63-f8b4-28760cafc200.html": {
+    "ts": "20250520073538",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scce2e4d44-febd-ecee-07d6-ac2e87c9be7d-ai6bad44f1-fe36-db63-f8b4-28760cafc200.html"
    },
    "/nomoi/enop/ind/0_154/section-scd25506c4-50c7-3513-8fc0-706c577e45a3-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251107123402",
@@ -889,6 +966,10 @@
    "/nomoi/enop/ind/0_154/section-sce2d40f3a-2c49-4912-8ddc-3f63042d6abf-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20250524222030",
     "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sce2d40f3a-2c49-4912-8ddc-3f63042d6abf-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
+   },
+   "/nomoi/enop/ind/0_154/section-sce6d912b9-d60d-43d8-8580-ab6ab4fa31fb-aib024cebc-c6a9-0fee-5a9a-d4f9682978b2.html": {
+    "ts": "20260616092632",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-sce6d912b9-d60d-43d8-8580-ab6ab4fa31fb-aib024cebc-c6a9-0fee-5a9a-d4f9682978b2.html"
    },
    "/nomoi/enop/ind/0_154/section-sce6d912b9-d60d-43d8-8580-ab6ab4fa31fb-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20251107124944",
@@ -913,6 +994,10 @@
    "/nomoi/enop/ind/0_154/section-scf72fe29a-e7ed-d9c6-b927-6e21ed258e92-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20250518192509",
     "url": "http://cylaw.org/nomoi/enop/ind/0_154/section-scf72fe29a-e7ed-d9c6-b927-6e21ed258e92-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html"
+   },
+   "/nomoi/enop/ind/0_154/section-scf8c5e288-df81-488b-a727-5b79f2d3b440-aie60f6df0-2c6c-1170-824c-335e776a1a43.html": {
+    "ts": "20260422121254",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/0_154/section-scf8c5e288-df81-488b-a727-5b79f2d3b440-aie60f6df0-2c6c-1170-824c-335e776a1a43.html"
    },
    "/nomoi/enop/ind/0_154/section-scf8c5e288-df81-488b-a727-5b79f2d3b440-ln33e6cfc1-3ae9-4878-9a51-0ca801e8bc27.html": {
     "ts": "20260411122005",
@@ -952,6 +1037,7 @@
     "url": "http://www.cylaw.org/nomoi/arith/2022_1_026.pdf"
    }
   },
+  "gpo": {},
   "instruments": [
    "125(I)/2018",
    "26(I)/2022"
@@ -969,8 +1055,8 @@
   }
  },
  "cap1": {
-  "ts": "20261016090721",
-  "url": "http://www.cylaw.org/nomoi/enop/non-ind/0_154/full.html"
+  "ts": "20260611041447",
+  "url": "https://www.cylaw.org/nomoi/enop/non-ind/0_1/full.html"
  },
  "syntagma": {
   "full": [
@@ -1166,6 +1252,15 @@
     "url": "http://www.cylaw.org:80/nomoi/arith/1989_1_095.pdf"
    }
   },
+  "gpo": {
+   "186(I)/2025": {
+    "date": "2025-11-07",
+    "issue": "5060",
+    "page": "https://www.mof.gov.cy/mof/gpo/gazette.nsf/All/DF7108E1E80A1C5DC2258D3B003C74AC?OpenDocument",
+    "pdf": "https://www.mof.gov.cy/mof/gpo/gazette.nsf/DF7108E1E80A1C5DC2258D3B003C74AC/$file/5060%207%2011%202025%20PARARTΗMA%201o%20MEROS%20I.pdf",
+    "title": "Παρασκευή - 07/11/2025 - ΠΑΡΑΡΤΗΜΑ ΠΡΩΤΟ - ΜΕΡΟΣ (Ι) - Αρ. 5060"
+   }
+  },
   "instruments": [
    "ΣΥΝΤΑΓΜΑ",
    "95/1989",
@@ -1192,6 +1287,7 @@
    "186(I)/2025"
   ],
   "missing_old": [
+   "/nomoi/enop/ind/syntagma/section-sc4db4b40e-b01c-58e6-e5db-cb36adbc2cd8-ai83f74ec2-f843-4de4-9858-ea7c6d5c863a.html",
    "/nomoi/enop/ind/syntagma/section-sc7d52ac8a-d871-6984-5d7c-576134dd3adc-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
   ],
   "old": {
@@ -1223,9 +1319,25 @@
     "ts": "20250912183939",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc25918077-4070-639d-26c2-48e6253a9244-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
    },
+   "/nomoi/enop/ind/syntagma/section-sc26b4a5c6-5493-b01e-9d76-560d2e45d284-ai3f1695ed-e580-47ab-95b8-02e64423e0ec.html": {
+    "ts": "20250517130705",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc26b4a5c6-5493-b01e-9d76-560d2e45d284-ai3f1695ed-e580-47ab-95b8-02e64423e0ec.html"
+   },
+   "/nomoi/enop/ind/syntagma/section-sc26b4a5c6-5493-b01e-9d76-560d2e45d284-ai46d7cafd-d145-4e3b-88a7-2c17501a3857.html": {
+    "ts": "20260520094055",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc26b4a5c6-5493-b01e-9d76-560d2e45d284-ai46d7cafd-d145-4e3b-88a7-2c17501a3857.html"
+   },
+   "/nomoi/enop/ind/syntagma/section-sc26b4a5c6-5493-b01e-9d76-560d2e45d284-aid03f744d-4d0d-4db9-912a-0f3c30fc9d9d.html": {
+    "ts": "20250716024227",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc26b4a5c6-5493-b01e-9d76-560d2e45d284-aid03f744d-4d0d-4db9-912a-0f3c30fc9d9d.html"
+   },
    "/nomoi/enop/ind/syntagma/section-sc26b4a5c6-5493-b01e-9d76-560d2e45d284-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20250716013228",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc26b4a5c6-5493-b01e-9d76-560d2e45d284-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
+   },
+   "/nomoi/enop/ind/syntagma/section-sc2974c0e2-6309-6314-ee77-386e9cb1e7c8-aic52182e4-eac3-7390-e4e2-6ea14a7258d3.html": {
+    "ts": "20251108092358",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc2974c0e2-6309-6314-ee77-386e9cb1e7c8-aic52182e4-eac3-7390-e4e2-6ea14a7258d3.html"
    },
    "/nomoi/enop/ind/syntagma/section-sc2974c0e2-6309-6314-ee77-386e9cb1e7c8-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20251108103833",
@@ -1239,6 +1351,10 @@
     "ts": "20251015214747",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc3c3bc52c-4568-070e-d908-0b2e5b3e6a13-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
    },
+   "/nomoi/enop/ind/syntagma/section-sc3ecc4d6b-8ad1-8870-6770-4d290cb4a0b2-ai5d76d8c5-8728-5972-6b33-d03273177405.html": {
+    "ts": "20260519011824",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc3ecc4d6b-8ad1-8870-6770-4d290cb4a0b2-ai5d76d8c5-8728-5972-6b33-d03273177405.html"
+   },
    "/nomoi/enop/ind/syntagma/section-sc3ecc4d6b-8ad1-8870-6770-4d290cb4a0b2-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20260618172735",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc3ecc4d6b-8ad1-8870-6770-4d290cb4a0b2-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
@@ -1246,6 +1362,10 @@
    "/nomoi/enop/ind/syntagma/section-sc4db4b40e-b01c-58e6-e5db-cb36adbc2cd8-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20251116092617",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc4db4b40e-b01c-58e6-e5db-cb36adbc2cd8-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
+   },
+   "/nomoi/enop/ind/syntagma/section-sc52213aa5-a7e1-71a3-7be2-b804aa7315b4-ai46d7cafd-d145-4e3b-88a7-2c17501a3857.html": {
+    "ts": "20251012011618",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc52213aa5-a7e1-71a3-7be2-b804aa7315b4-ai46d7cafd-d145-4e3b-88a7-2c17501a3857.html"
    },
    "/nomoi/enop/ind/syntagma/section-sc52213aa5-a7e1-71a3-7be2-b804aa7315b4-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20251108092803",
@@ -1263,6 +1383,14 @@
     "ts": "20250908021521",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc61e4cec6-790a-241e-52c8-4561c1086682-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
    },
+   "/nomoi/enop/ind/syntagma/section-sc62767a97-151c-8a5b-49e5-a4a6c37065e3-ai75a9135c-4838-98c8-07f0-75281ab15ae8.html": {
+    "ts": "20250908151759",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc62767a97-151c-8a5b-49e5-a4a6c37065e3-ai75a9135c-4838-98c8-07f0-75281ab15ae8.html"
+   },
+   "/nomoi/enop/ind/syntagma/section-sc62767a97-151c-8a5b-49e5-a4a6c37065e3-aif37aa390-d776-4520-97a7-5ef522a479d4.html": {
+    "ts": "20250909161629",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc62767a97-151c-8a5b-49e5-a4a6c37065e3-aif37aa390-d776-4520-97a7-5ef522a479d4.html"
+   },
    "/nomoi/enop/ind/syntagma/section-sc62767a97-151c-8a5b-49e5-a4a6c37065e3-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20251115145357",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc62767a97-151c-8a5b-49e5-a4a6c37065e3-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
@@ -1278,6 +1406,10 @@
    "/nomoi/enop/ind/syntagma/section-sc6e2ea468-368a-e281-97b3-01c586e9a02a-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20250911184601",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc6e2ea468-368a-e281-97b3-01c586e9a02a-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
+   },
+   "/nomoi/enop/ind/syntagma/section-sc728537ed-06b6-9acd-dd52-4ed0bb847cd3-ai46d7cafd-d145-4e3b-88a7-2c17501a3857.html": {
+    "ts": "20260410201926",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc728537ed-06b6-9acd-dd52-4ed0bb847cd3-ai46d7cafd-d145-4e3b-88a7-2c17501a3857.html"
    },
    "/nomoi/enop/ind/syntagma/section-sc728537ed-06b6-9acd-dd52-4ed0bb847cd3-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20260314234213",
@@ -1295,9 +1427,17 @@
     "ts": "20251110163357",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc9a805b21-c226-eaee-2b99-d969c2e8cdee-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
    },
+   "/nomoi/enop/ind/syntagma/section-scb6ed3ca3-a6a3-a7a7-087d-243c391099bc-ai89d6615e-0110-488e-9fbe-0cf7e3e38def.html": {
+    "ts": "20250915190641",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-scb6ed3ca3-a6a3-a7a7-087d-243c391099bc-ai89d6615e-0110-488e-9fbe-0cf7e3e38def.html"
+   },
    "/nomoi/enop/ind/syntagma/section-scb6ed3ca3-a6a3-a7a7-087d-243c391099bc-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20250523022015",
     "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-scb6ed3ca3-a6a3-a7a7-087d-243c391099bc-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html"
+   },
+   "/nomoi/enop/ind/syntagma/section-scd098e7c8-ddec-e5b8-2e50-6140ec48ac75-ai37cd70d9-aef2-1f2f-7bd4-5c564e0c6711.html": {
+    "ts": "20251110134832",
+    "url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-scd098e7c8-ddec-e5b8-2e50-6140ec48ac75-ai37cd70d9-aef2-1f2f-7bd4-5c564e0c6711.html"
    },
    "/nomoi/enop/ind/syntagma/section-scd098e7c8-ddec-e5b8-2e50-6140ec48ac75-lnc776a994-4e50-3c01-7b5c-2dec77b16aa2.html": {
     "ts": "20251110011146",

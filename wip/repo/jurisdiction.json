@@ -1,0 +1,10 @@
+{
+  "path": "cy",
+  "code": "CY",
+  "name": "Cyprus",
+  "level": "country",
+  "repo": "https://github.com/lexifina/cyprus-law",
+  "build": "built: Constitution (15 versions, 2013-07-17 to 2025-11-07, plus 2027-07-01 on mellon); Criminal Code, Cap. 154 (15 versions, 2017-04-07 to 2025-12-12); Law 125(I)/2018 on personal data (2 versions, 2018-07-31 to 2022-03-11)",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28"
+}
