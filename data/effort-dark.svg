@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="752" viewBox="0 0 880 752" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif">
+<rect x="0.5" y="0.5" width="879" height="751" rx="6" fill="#0d1117" stroke="#3d444d"/>
+<text x="24" y="38" font-size="16" font-weight="600" fill="#f0f6fc">Cypriot law as a git history</text>
+<rect x="280.8" y="24.5" width="61" height="20" rx="10" fill="none" stroke="#3d444d"/>
+<text x="311.2" y="38.5" font-size="11.5" font-weight="500" text-anchor="middle" fill="#9198a1">00e697f</text>
+<rect x="349.6" y="24.5" width="157" height="20" rx="10" fill="none" stroke="#3d444d"/>
+<text x="428.0" y="38.5" font-size="11.5" font-weight="500" text-anchor="middle" fill="#9198a1">record to May 12, 2026</text>
+<rect x="514.4" y="24.5" width="118" height="20" rx="10" fill="none" stroke="#3d444d"/>
+<text x="573.6" y="38.5" font-size="11.5" font-weight="500" text-anchor="middle" fill="#9198a1">freshness: stale</text>
+<rect x="24.5" y="60.5" width="831" height="58" rx="6" fill="#0d1117" stroke="#3d444d"/>
+<text x="40.0" y="87" font-size="20" font-weight="600" fill="#f0f6fc">11</text>
+<text x="40.0" y="106" font-size="12" fill="#9198a1">acts</text>
+<line x1="190.4" y1="61" x2="190.4" y2="118" stroke="#3d444d"/>
+<text x="206.4" y="87" font-size="20" font-weight="600" fill="#f0f6fc">89</text>
+<text x="206.4" y="106" font-size="12" fill="#9198a1">changes, as commits</text>
+<line x1="356.8" y1="61" x2="356.8" y2="118" stroke="#3d444d"/>
+<text x="372.8" y="87" font-size="20" font-weight="600" fill="#f0f6fc">2,136</text>
+<text x="372.8" y="106" font-size="12" fill="#9198a1">provision files</text>
+<line x1="523.2" y1="61" x2="523.2" y2="118" stroke="#3d444d"/>
+<text x="539.2" y="87" font-size="20" font-weight="600" fill="#f0f6fc">81</text>
+<text x="539.2" y="106" font-size="12" fill="#9198a1">laws and publishers credited</text>
+<line x1="689.6" y1="61" x2="689.6" y2="118" stroke="#3d444d"/>
+<text x="705.6" y="87" font-size="20" font-weight="600" fill="#f0f6fc">2012–2026</text>
+<text x="705.6" y="106" font-size="12" fill="#9198a1">years of history</text>
+<rect x="24.5" y="134.5" width="831" height="248" rx="6" fill="#0d1117" stroke="#3d444d"/>
+<text x="40.5" y="160.5" font-size="14" font-weight="600" fill="#f0f6fc">Changes by the year they took effect</text>
+<line x1="80.5" y1="330.5" x2="839.5" y2="330.5" stroke="#3d444d" stroke-width="1"/>
+<text x="72.5" y="334.5" font-size="11" text-anchor="end" fill="#9198a1">0</text>
+<line x1="80.5" y1="255.5" x2="839.5" y2="255.5" stroke="#3d444d" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="72.5" y="259.5" font-size="11" text-anchor="end" fill="#9198a1">10</text>
+<line x1="80.5" y1="180.5" x2="839.5" y2="180.5" stroke="#3d444d" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="72.5" y="184.5" font-size="11" text-anchor="end" fill="#9198a1">20</text>
+<text x="98.6" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2006</text>
+<text x="170.9" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2008</text>
+<text x="243.1" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2010</text>
+<rect x="297.96" y="323.0" width="34.94" height="7.5" rx="1.5" fill="#2ea043"><title>2012: 1 change took effect</title></rect>
+<text x="315.4" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2012</text>
+<rect x="334.10" y="315.5" width="34.94" height="15.0" rx="1.5" fill="#2ea043"><title>2013: 2 changes took effect</title></rect>
+<rect x="370.24" y="285.5" width="34.94" height="45.0" rx="1.5" fill="#2ea043"><title>2014: 6 changes took effect</title></rect>
+<text x="387.7" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2014</text>
+<rect x="406.39" y="293.0" width="34.94" height="37.5" rx="1.5" fill="#2ea043"><title>2015: 5 changes took effect</title></rect>
+<rect x="442.53" y="315.5" width="34.94" height="15.0" rx="1.5" fill="#2ea043"><title>2016: 2 changes took effect</title></rect>
+<text x="460.0" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2016</text>
+<rect x="478.67" y="308.0" width="34.94" height="22.5" rx="1.5" fill="#2ea043"><title>2017: 3 changes took effect</title></rect>
+<rect x="514.81" y="278.0" width="34.94" height="52.5" rx="1.5" fill="#2ea043"><title>2018: 7 changes took effect</title></rect>
+<text x="532.3" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2018</text>
+<rect x="550.96" y="278.0" width="34.94" height="52.5" rx="1.5" fill="#2ea043"><title>2019: 7 changes took effect</title></rect>
+<rect x="587.10" y="278.0" width="34.94" height="52.5" rx="1.5" fill="#2ea043"><title>2020: 7 changes took effect</title></rect>
+<text x="604.6" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2020</text>
+<rect x="623.24" y="285.5" width="34.94" height="45.0" rx="1.5" fill="#2ea043"><title>2021: 6 changes took effect</title></rect>
+<rect x="659.39" y="270.5" width="34.94" height="60.0" rx="1.5" fill="#2ea043"><title>2022: 8 changes took effect</title></rect>
+<text x="676.9" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2022</text>
+<rect x="695.53" y="263.0" width="34.94" height="67.5" rx="1.5" fill="#2ea043"><title>2023: 9 changes took effect</title></rect>
+<rect x="731.67" y="240.5" width="34.94" height="90.0" rx="1.5" fill="#2ea043"><title>2024: 12 changes took effect</title></rect>
+<text x="749.1" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2024</text>
+<text x="749.1" y="234.5" font-size="11" font-weight="600" text-anchor="middle" fill="#f0f6fc">12 in 2024</text>
+<rect x="767.81" y="240.5" width="34.94" height="90.0" rx="1.5" fill="#2ea043"><title>2025: 12 changes took effect</title></rect>
+<rect x="803.96" y="315.5" width="34.94" height="15.0" rx="1.5" fill="#2ea043"><title>2026: 2 changes took effect</title></rect>
+<text x="821.4" y="346.5" font-size="11" text-anchor="middle" fill="#9198a1">2026</text>
+<text x="40.5" y="368.5" font-size="11.5" fill="#9198a1">89 changes dated by their in-force day. History type: in-force.</text>
+<rect x="24.5" y="396.5" width="831" height="152" rx="6" fill="#0d1117" stroke="#3d444d"/>
+<text x="40.5" y="422.5" font-size="14" font-weight="600" fill="#f0f6fc">Completeness, checked against the official sources on Nov 12, 2026</text>
+<text x="40.5" y="446.5" font-size="13" fill="#f0f6fc">Constitution</text>
+<text x="40.5" y="462.5" font-size="11.5" fill="#9198a1">held in the repository</text>
+<text x="424.0" y="450.5" font-size="13" font-weight="600" text-anchor="end" fill="#2ea043">held</text>
+<text x="40.5" y="482.5" font-size="13" fill="#f0f6fc">Main codes</text>
+<text x="40.5" y="498.5" font-size="11.5" fill="#9198a1">share of the essential codes held</text>
+<g><title>Main codes: 71%</title><rect x="276.5" y="479.5" width="91.5" height="8" rx="4" fill="#262c36"/><rect x="276.5" y="479.5" width="65.0" height="8" rx="4" fill="#d29922"/></g>
+<text x="424.0" y="486.5" font-size="13" font-weight="600" text-anchor="end" fill="#f0f6fc">71%</text>
+<text x="40.5" y="518.5" font-size="13" fill="#f0f6fc">National law</text>
+<text x="40.5" y="534.5" font-size="11.5" fill="#9198a1">estimate (low confidence, range 0.4–0.7%)</text>
+<g><title>National law: 0.6%</title><rect x="276.5" y="515.5" width="91.5" height="8" rx="4" fill="#262c36"/><rect x="276.5" y="515.5" width="4.0" height="8" rx="4" fill="#f85149"/></g>
+<text x="424.0" y="522.5" font-size="13" font-weight="600" text-anchor="end" fill="#f0f6fc">est. 0.6%</text>
+<text x="456.0" y="446.5" font-size="13" fill="#f0f6fc">Regional law</text>
+<text x="456.0" y="462.5" font-size="11.5" fill="#9198a1">no law-making regions</text>
+<text x="839.5" y="450.5" font-size="13" font-weight="600" text-anchor="end" fill="#9198a1">not applicable</text>
+<text x="456.0" y="482.5" font-size="13" fill="#f0f6fc">Case law</text>
+<text x="456.0" y="498.5" font-size="11.5" fill="#9198a1">top courts held</text>
+<g><title>Case law: 0%</title><rect x="692.0" y="479.5" width="91.5" height="8" rx="4" fill="#262c36"/></g>
+<text x="839.5" y="486.5" font-size="13" font-weight="600" text-anchor="end" fill="#f0f6fc">0%</text>
+<text x="456.0" y="518.5" font-size="13" fill="#f0f6fc">Verdict</text>
+<text x="456.0" y="534.5" font-size="11.5" fill="#9198a1">A small, carefully dated set of 11 consolidated acts: the…</text>
+<text x="839.5" y="522.5" font-size="13" font-weight="600" text-anchor="end" fill="#9198a1"></text>
+<rect x="24.5" y="562.5" width="831" height="152" rx="6" fill="#0d1117" stroke="#3d444d"/>
+<text x="40.5" y="588.5" font-size="14" font-weight="600" fill="#f0f6fc">Correctness of what is held</text>
+<text x="40.5" y="612.5" font-size="13" fill="#f0f6fc">Changes with an in-force date</text>
+<text x="40.5" y="628.5" font-size="11.5" fill="#9198a1">share of changes</text>
+<g><title>Changes with an in-force date: 100%</title><rect x="276.5" y="609.5" width="91.5" height="8" rx="4" fill="#262c36"/><rect x="276.5" y="609.5" width="91.5" height="8" rx="4" fill="#2ea043"/></g>
+<text x="424.0" y="616.5" font-size="13" font-weight="600" text-anchor="end" fill="#f0f6fc">100%</text>
+<text x="40.5" y="648.5" font-size="13" fill="#f0f6fc">Changes citing their official source</text>
+<text x="40.5" y="664.5" font-size="11.5" fill="#9198a1">a Source line or link in the commit</text>
+<g><title>Changes citing their official source: 100%</title><rect x="276.5" y="645.5" width="91.5" height="8" rx="4" fill="#262c36"/><rect x="276.5" y="645.5" width="91.5" height="8" rx="4" fill="#2ea043"/></g>
+<text x="424.0" y="652.5" font-size="13" font-weight="600" text-anchor="end" fill="#f0f6fc">100%</text>
+<text x="40.5" y="684.5" font-size="13" fill="#f0f6fc">Checked against the official source</text>
+<text x="40.5" y="700.5" font-size="11.5" fill="#9198a1">CyLaw (Cyprus Bar Association, KINOP)</text>
+<text x="424.0" y="688.5" font-size="13" font-weight="600" text-anchor="end" fill="#f0f6fc">Oct 29, 2026</text>
+<text x="456.0" y="612.5" font-size="13" fill="#f0f6fc">global-law's checks</text>
+<text x="456.0" y="628.5" font-size="11.5" fill="#9198a1">0 problems, 1 warning</text>
+<text x="839.5" y="616.5" font-size="13" font-weight="600" text-anchor="end" fill="#2ea043">passes</text>
+<text x="456.0" y="648.5" font-size="13" fill="#f0f6fc">Corpora for this country in global-law</text>
+<text x="456.0" y="664.5" font-size="11.5" fill="#9198a1">national acts: 1</text>
+<text x="839.5" y="652.5" font-size="13" font-weight="600" text-anchor="end" fill="#f0f6fc">1</text>
+<text x="456.0" y="684.5" font-size="13" fill="#f0f6fc">Record runs to</text>
+<text x="456.0" y="700.5" font-size="11.5" fill="#9198a1">freshness status: stale</text>
+<text x="839.5" y="688.5" font-size="13" font-weight="600" text-anchor="end" fill="#f0f6fc">May 12, 2026</text>
+<text x="24" y="736" font-size="11.5" fill="#9198a1">lexifina/cyprus-law at 00e697f, built 2026-11-12. Changes exclude documentation commits. Scope: 11 acts, 89 dated versions from 2012-05-31 to 2026-05-12</text>
+</svg>
