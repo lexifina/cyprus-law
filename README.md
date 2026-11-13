@@ -1,91 +1,102 @@
-# Cyprus: law history in git
+# Κύπρος: η ιστορία του δικαίου σε git
+
+**Ελληνικά** · [English](README.en.md)
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="data/effort-dark.svg">
-<img alt="Cypriot law in this repository: what it holds, changes by the year they took effect, completeness against the official sources, and the correctness of what is held" src="data/effort-light.svg" width="880">
+<source media="(prefers-color-scheme: dark)" srcset="data/el/effort-dark.svg">
+<img alt="Η κυπριακή νομοθεσία σε αυτό το αποθετήριο: τι περιέχει, αλλαγές ανά έτος έναρξης ισχύος, πληρότητα σε σχέση με τις επίσημες πηγές και ορθότητα του περιεχομένου" src="data/el/effort-light.svg" width="880">
 </picture>
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Cyprus' national law, which global-law reads at `cyprus/national/acts/`.
+Μέρος του [lexifina/global-law](https://github.com/lexifina/global-law), μιας ενιαίας ιστορίας git για το δίκαιο κάθε χώρας: εδώ βρίσκεται το εθνικό δίκαιο της Κύπρου, το οποίο το global-law διαβάζει στο `cyprus/national/acts/`.
 
-The law of Cyprus as a git history: one file per provision, one commit per law on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a provision; `tools/on.py` gives the text in force on any day.
+Το δίκαιο της Κύπρου ως ιστορία git: ένα αρχείο ανά διάταξη, ένα commit ανά νόμο την ημέρα που αυτός τέθηκε σε ισχύ, και ως συντάκτης (author) του commit ο νόμος που επέφερε την αλλαγή. Το `git blame` κατονομάζει τον νόμο πίσω από κάθε παράγραφο· το `git log` απαριθμεί κάθε αλλαγή μιας διάταξης· το `tools/on.py` δίνει το κείμενο που ίσχυε οποιαδήποτε ημέρα.
 
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `cy/`. The texts are in Greek, the official language in which CyLaw publishes them.
+Ακολουθεί τον κοινό σχεδιασμό του [lexifina/global-law](https://github.com/lexifina/global-law), που το τοποθετεί στο `cy/`. Τα κείμενα είναι στα ελληνικά, την επίσημη γλώσσα στην οποία τα δημοσιεύει το CyLaw.
 
-**What is in it now**
+**Τι περιέχει σήμερα**
 
-| Folder | Act | Versions | History |
+| Φάκελος | Νομοθέτημα | Εκδόσεις | Ιστορικό |
 | --- | --- | ---: | --- |
-| `syntagma/` | The Constitution of the Republic of Cyprus (Το Σύνταγμα της Κυπριακής Δημοκρατίας) | 15 | 2013-07-17 to 2025-11-07, and 2027-07-01 on `mellon` |
-| `poinikos-kodikas/` | The Criminal Code, Cap. 154 (Ο περί Ποινικού Κώδικα Νόμος, ΚΕΦ.154) | 15 | 2017-04-07 to 2025-12-12 |
-| `poiniki-dikonomia/` | The Criminal Procedure Law, Cap. 155 (Ο περί Ποινικής Δικονομίας Νόμος, ΚΕΦ.155) | 10 | 2014-02-21 to 2025-12-19 |
-| `astika-adikimata/` | The Civil Wrongs Law, Cap. 148 (Ο περί Αστικών Αδικημάτων Νόμος, ΚΕΦ.148) | 1 | 2012-05-31 (the text as last amended, by 66(I)/2012) |
-| `etaireies/` | The Companies Law, Cap. 113 (Ο περί Εταιρειών Νόμος, ΚΕΦ.113) | 1 | 2026-02-06 (the text as last amended, by 2(I)/2026) |
-| `politiki-dikonomia/` | The Civil Procedure Law, Cap. 6 (Ο περί Πολιτικής Δικονομίας Νόμος, ΚΕΦ.6) | 8 | 2014-05-23 to 2025-07-22 |
-| `dikastiria-14-1960/` | The Courts of Justice Law 14/1960 (Ο περί Δικαστηρίων Νόμος του 1960) | 8 | 2022-06-02 to 2026-05-12 |
-| `archeio-plithysmou/` | The Civil Registry Law 141(I)/2002 (Ο περί Αρχείου Πληθυσμού Νόμος του 2002) | 16 | 2013-12-27 to 2025-12-12 |
-| `xenodocheia/` | The Hotels and Tourist Accommodation Law 34(I)/2019 | 9 | 2019-03-15 (as enacted) to 2025-10-24 |
-| `dimoi/` | The Municipalities Law 52(I)/2022 (Ο περί Δήμων Νόμος του 2022) | 1 | 2025-10-17 (the text as last amended, by 177(I)/2025) |
-| `prostasia-dedomenon/` | Law 125(I)/2018 on the protection of natural persons with regard to the processing of personal data (the GDPR implementing law) | 2 | 2018-07-31 (as enacted) to 2022-03-11 |
+| `syntagma/` | Το Σύνταγμα της Κυπριακής Δημοκρατίας | 15 | 2013-07-17 έως 2025-11-07, και 2027-07-01 στο `mellon` |
+| `poinikos-kodikas/` | Ο περί Ποινικού Κώδικα Νόμος, ΚΕΦ.154 | 15 | 2017-04-07 έως 2025-12-12 |
+| `poiniki-dikonomia/` | Ο περί Ποινικής Δικονομίας Νόμος, ΚΕΦ.155 | 10 | 2014-02-21 έως 2025-12-19 |
+| `astika-adikimata/` | Ο περί Αστικών Αδικημάτων Νόμος, ΚΕΦ.148 | 1 | 2012-05-31 (το κείμενο όπως τροποποιήθηκε τελευταία, με τον Ν. 66(I)/2012) |
+| `etaireies/` | Ο περί Εταιρειών Νόμος, ΚΕΦ.113 | 1 | 2026-02-06 (το κείμενο όπως τροποποιήθηκε τελευταία, με τον Ν. 2(I)/2026) |
+| `politiki-dikonomia/` | Ο περί Πολιτικής Δικονομίας Νόμος, ΚΕΦ.6 | 8 | 2014-05-23 έως 2025-07-22 |
+| `dikastiria-14-1960/` | Ο περί Δικαστηρίων Νόμος του 1960 (Ν. 14/1960) | 8 | 2022-06-02 έως 2026-05-12 |
+| `archeio-plithysmou/` | Ο περί Αρχείου Πληθυσμού Νόμος του 2002 (Ν. 141(I)/2002) | 16 | 2013-12-27 έως 2025-12-12 |
+| `xenodocheia/` | Ο περί Ξενοδοχείων και Τουριστικών Καταλυμάτων Νόμος (Ν. 34(I)/2019) | 9 | 2019-03-15 (όπως θεσπίστηκε) έως 2025-10-24 |
+| `dimoi/` | Ο περί Δήμων Νόμος του 2022 (Ν. 52(I)/2022) | 1 | 2025-10-17 (το κείμενο όπως τροποποιήθηκε τελευταία, με τον Ν. 177(I)/2025) |
+| `prostasia-dedomenon/` | Ο Νόμος 125(I)/2018 για την προστασία των φυσικών προσώπων έναντι της επεξεργασίας των δεδομένων προσωπικού χαρακτήρα (ο νόμος εφαρμογής του ΓΚΠΔ) | 2 | 2018-07-31 (όπως θεσπίστηκε) έως 2022-03-11 |
 
-Each act folder has a README listing its versions.
+Κάθε φάκελος νομοθετήματος έχει ένα README με τον κατάλογο των εκδόσεών του.
 
-## Sources
+## Πηγές
 
-- **CyLaw** (cylaw.org), the Cyprus Bar Association's legal information service run by KINOP, publishes each act consolidated. Under every section it lists the laws that made or amended it, oldest first, and links each to the section's wording as that law left it. So the act on any day is rebuilt section by section: each section reads as left by the last of its laws in force that day.
-- CyLaw's terms allow free copying with CyLaw named as the source, but bulk or automated downloading from the site needs its written consent. So **no page was fetched from cylaw.org**: every CyLaw page and PDF is an Internet Archive copy, pinned by capture time in `tools/sources.json`.
-- The newest archived consolidated page gives today's text. Older wordings come from archived per-section pages and from archived copies of the whole consolidated page made in earlier years (21 for the Constitution since 2013, 27 for Cap. 154 since 2012, 3 for Law 125(I)/2018, 4 for Cap. 155 since 2022, 2 for Cap. 148, 3 for Cap. 113, 4 for Cap. 6).
-- **Dates** come from the Official Gazette (Επίσημη Εφημερίδα της Δημοκρατίας). For most laws, the Gazette extract CyLaw files (`/nomoi/arith/<year>_1_<number>.pdf`, archived copy) gives the issue number and date in its own text layer. For 186(I)/2025 and 212(I)/2025, whose extracts are not archived, the Gazette issue itself was read from the Government Printing Office's archive (mof.gov.cy/gpo). No OCR is done.
+- Το **CyLaw** (cylaw.org), η υπηρεσία νομικής πληροφόρησης του Παγκύπριου Δικηγορικού Συλλόγου, την οποία λειτουργεί το ΚΙΝΟΠ, δημοσιεύει κάθε νομοθέτημα σε ενοποιημένη μορφή. Κάτω από κάθε άρθρο απαριθμεί τους νόμους που το θέσπισαν ή το τροποποίησαν, από τον παλαιότερο, και για καθέναν παραπέμπει στη διατύπωση του άρθρου όπως την άφησε ο νόμος αυτός. Έτσι το νομοθέτημα οποιασδήποτε ημέρας ανασυντίθεται άρθρο προς άρθρο: κάθε άρθρο έχει τη διατύπωση που του έδωσε ο τελευταίος από τους νόμους του που ίσχυαν εκείνη την ημέρα.
+- Οι όροι χρήσης του CyLaw επιτρέπουν την ελεύθερη αντιγραφή με αναφορά του CyLaw ως πηγής, αλλά η μαζική ή αυτοματοποιημένη λήψη από τον ιστότοπο απαιτεί τη γραπτή συγκατάθεσή του. Γι' αυτό **καμία σελίδα δεν ανακτήθηκε από το cylaw.org**: κάθε σελίδα και κάθε PDF του CyLaw είναι αντίγραφο του Internet Archive, προσδιορισμένο με τον χρόνο λήψης του στο `tools/sources.json`.
+- Η νεότερη αρχειοθετημένη ενοποιημένη σελίδα δίνει το σημερινό κείμενο. Οι παλαιότερες διατυπώσεις προέρχονται από αρχειοθετημένες σελίδες ανά άρθρο και από αρχειοθετημένα αντίγραφα ολόκληρης της ενοποιημένης σελίδας από προηγούμενα έτη (21 για το Σύνταγμα από το 2013, 27 για το ΚΕΦ.154 από το 2012, 3 για τον Ν. 125(I)/2018, 4 για το ΚΕΦ.155 από το 2022, 2 για το ΚΕΦ.148, 3 για το ΚΕΦ.113, 4 για το ΚΕΦ.6).
+- Οι **ημερομηνίες** προέρχονται από την Επίσημη Εφημερίδα της Δημοκρατίας. Για τους περισσότερους νόμους, το απόσπασμα της Εφημερίδας που καταχωρίζει το CyLaw (`/nomoi/arith/<year>_1_<number>.pdf`, αρχειοθετημένο αντίγραφο) δίνει τον αριθμό και την ημερομηνία του φύλλου στο δικό του επίπεδο κειμένου. Για τους Ν. 186(I)/2025 και 212(I)/2025, των οποίων τα αποσπάσματα δεν είναι αρχειοθετημένα, διαβάστηκε το ίδιο το φύλλο της Εφημερίδας από το αρχείο του Κυβερνητικού Τυπογραφείου (mof.gov.cy/gpo). Δεν γίνεται OCR.
 
-## What is missing
+## Τι λείπει
 
-- **Constitution before 2013-07-17.** The 1960 text and the versions of 1990-01-01 (95/1989), 1996 (106(I)/1996, 115(I)/1996) and 2002 (104(I)/2002) are complete on CyLaw, but they are left out because their dates cannot be sourced:
-  - our sources do not state the day the 1960 Constitution took effect;
-  - for 127(I)/2006 and 51(I)/2010, CyLaw's PDFs are retyped texts without the Gazette header, and the Printing Office's online archive has no laws annex for those years. Without them, changes made between 2002 and 2013 cannot be dated, so the history starts with the version in force after 68(I)/2013, credited to CyLaw as the oldest version available.
-- **Constitution, 103(I)/2022.** Its s. 7 brings it into force on publication, except for Art. 144 para. 1(3) and (4) and the repeal of Art. 155(2), which start when the courts concerned begin to sit, as other laws provide. Those days are not in our sources, so these changes show from publication (2022-07-12).
-- **Cap. 154 before 2017-04-07.** CyLaw lists 85 amending instruments since 1962. 36 of them (five from 1962–1965, 29 from 1999–2012, and 43(I)/2016) and one notice (ΑΝΑΚ.3309) have no sourced date: most of CyLaw's PDFs for them are retypes without the Gazette header, the 1962–1965 extracts' text layers show no date, 43(I)/2016's PDF has an unreadable text layer, and the Printing Office's online archive has no laws annex for those years. The history therefore starts with the version in force after 31(I)/2017, as the oldest version available.
-- **Cap. 155 before 2014-02-21.** CyLaw lists 33 amending instruments since 1972. 13 of them (the original text, 93/1972, ΑΝΑΚ.3374, and every law from 14(I)/2001 to 23(I)/2013) have no sourced date: CyLaw's PDFs for them are retypes without the Gazette header and the Printing Office's online archive has no laws annex for those years; and 22 sections' original wording is not archived. The history therefore starts with the version in force after 16(I)/2014. 235(I)/2025 is dated from its Gazette issue (Αρ. 5067, 19.12.2025). CyLaw keeps the deleted earlier sections 92, 93, 94 and 155 ("[Διαγράφηκε]") beside the later sections of the same numbers; the deleted ones are left out.
-- **Cap. 148 before 2012-05-31.** Five of its amending laws and a notice (154(I)/2002, 129(I)/2006, 171(I)/2006, 82(I)/2008, ΑΝΑΚ.3309) have no sourced date, so only the text as last amended, by 66(I)/2012, is given, as the oldest version available.
-- **Cap. 113 before 2026-02-06.** Most of the laws CyLaw lists from 2000 to 2021 have no sourced date (retyped extracts, no laws annex online for those years), and the wording of s. 2 as left by 162(I)/2025 is not archived, so only the text as last amended, by 2(I)/2026 (Gazette Αρ. 5071, 6.2.2026), is given, as the oldest version available. CyLaw prints ss. 157ΙΑ-157ΙΔ twice with the same text; one copy is used.
-- **Cap. 6 before 2014-05-23.** The original text, 14/1960, 11/1965, ΑΝΑΚ.3374, 58(I)/2003, 66(I)/2004 and 138(I)/2006 have no sourced date, so the history starts after the next dated law.
-- **Law 14/1960 before 2022-06-02, Law 141(I)/2002 before 2013-12-27 and Law 52(I)/2022 before 2025-10-17.** Earlier versions need Gazette days the online sources do not give (most laws of 1960-2021) or old wordings neither archive holds (s. 22Β of Law 14/1960; 32 sections of Law 52(I)/2022), so the histories start later. Law 34(I)/2019 is complete from its enactment.
-- Part headings, CyLaw's editorial notes (Σημείωση) and footnotes quoting transitional provisions of amending laws are left out.
+- **Σύνταγμα πριν από τις 2013-07-17.** Το κείμενο του 1960 και οι εκδόσεις της 1990-01-01 (95/1989), του 1996 (106(I)/1996, 115(I)/1996) και του 2002 (104(I)/2002) υπάρχουν πλήρεις στο CyLaw, αλλά παραλείπονται επειδή οι ημερομηνίες τους δεν μπορούν να τεκμηριωθούν:
+  - οι πηγές μας δεν αναφέρουν την ημέρα κατά την οποία τέθηκε σε ισχύ το Σύνταγμα του 1960·
+  - για τους Ν. 127(I)/2006 και 51(I)/2010, τα PDF του CyLaw είναι κείμενα πληκτρολογημένα εκ νέου, χωρίς την κεφαλίδα της Εφημερίδας, και το διαδικτυακό αρχείο του Τυπογραφείου δεν έχει παράρτημα νόμων για τα έτη αυτά. Χωρίς αυτά, οι αλλαγές που έγιναν μεταξύ 2002 και 2013 δεν μπορούν να χρονολογηθούν, γι' αυτό η ιστορία αρχίζει με την έκδοση που ίσχυε μετά τον Ν. 68(I)/2013, η οποία αποδίδεται στο CyLaw ως η παλαιότερη διαθέσιμη έκδοση.
+- **Σύνταγμα, Ν. 103(I)/2022.** Το άρθρο 7 του νόμου ορίζει την έναρξη της ισχύος του από τη δημοσίευσή του, εκτός από το Άρθρο 144 παρ. 1(3) και (4) και την κατάργηση του Άρθρου 155(2), που αρχίζουν να ισχύουν όταν τα οικεία δικαστήρια αρχίσουν να λειτουργούν, όπως προβλέπουν άλλοι νόμοι. Οι ημέρες αυτές δεν υπάρχουν στις πηγές μας, γι' αυτό οι αλλαγές αυτές εμφανίζονται από τη δημοσίευση (2022-07-12).
+- **ΚΕΦ.154 πριν από τις 2017-04-07.** Το CyLaw απαριθμεί 85 τροποποιητικές πράξεις από το 1962. 36 από αυτές (πέντε της περιόδου 1962–1965, 29 της περιόδου 1999–2012 και ο Ν. 43(I)/2016) και μία ανακοίνωση (ΑΝΑΚ.3309) δεν έχουν τεκμηριωμένη ημερομηνία: τα περισσότερα PDF του CyLaw γι' αυτές είναι κείμενα πληκτρολογημένα εκ νέου, χωρίς την κεφαλίδα της Εφημερίδας, τα επίπεδα κειμένου των αποσπασμάτων του 1962–1965 δεν δείχνουν ημερομηνία, το PDF του Ν. 43(I)/2016 έχει μη αναγνώσιμο επίπεδο κειμένου, και το διαδικτυακό αρχείο του Τυπογραφείου δεν έχει παράρτημα νόμων για τα έτη αυτά. Η ιστορία επομένως αρχίζει με την έκδοση που ίσχυε μετά τον Ν. 31(I)/2017, ως η παλαιότερη διαθέσιμη έκδοση.
+- **ΚΕΦ.155 πριν από τις 2014-02-21.** Το CyLaw απαριθμεί 33 τροποποιητικές πράξεις από το 1972. 13 από αυτές (το αρχικό κείμενο, ο Ν. 93/1972, η ΑΝΑΚ.3374 και κάθε νόμος από τον 14(I)/2001 έως τον 23(I)/2013) δεν έχουν τεκμηριωμένη ημερομηνία: τα PDF του CyLaw γι' αυτές είναι κείμενα πληκτρολογημένα εκ νέου, χωρίς την κεφαλίδα της Εφημερίδας, και το διαδικτυακό αρχείο του Τυπογραφείου δεν έχει παράρτημα νόμων για τα έτη αυτά· επιπλέον, η αρχική διατύπωση 22 άρθρων δεν είναι αρχειοθετημένη. Η ιστορία επομένως αρχίζει με την έκδοση που ίσχυε μετά τον Ν. 16(I)/2014. Ο Ν. 235(I)/2025 χρονολογείται από το φύλλο της Εφημερίδας στο οποίο δημοσιεύθηκε (Αρ. 5067, 19.12.2025). Το CyLaw διατηρεί τα διαγραμμένα παλαιότερα άρθρα 92, 93, 94 και 155 («[Διαγράφηκε]») δίπλα στα μεταγενέστερα άρθρα με τους ίδιους αριθμούς· τα διαγραμμένα παραλείπονται.
+- **ΚΕΦ.148 πριν από τις 2012-05-31.** Πέντε από τους τροποποιητικούς νόμους του και μία ανακοίνωση (154(I)/2002, 129(I)/2006, 171(I)/2006, 82(I)/2008, ΑΝΑΚ.3309) δεν έχουν τεκμηριωμένη ημερομηνία, γι' αυτό δίνεται μόνο το κείμενο όπως τροποποιήθηκε τελευταία, με τον Ν. 66(I)/2012, ως η παλαιότερη διαθέσιμη έκδοση.
+- **ΚΕΦ.113 πριν από τις 2026-02-06.** Οι περισσότεροι από τους νόμους που απαριθμεί το CyLaw από το 2000 έως το 2021 δεν έχουν τεκμηριωμένη ημερομηνία (αποσπάσματα πληκτρολογημένα εκ νέου, χωρίς διαδικτυακό παράρτημα νόμων για τα έτη αυτά), και η διατύπωση του άρθρου 2 όπως την άφησε ο Ν. 162(I)/2025 δεν είναι αρχειοθετημένη, γι' αυτό δίνεται μόνο το κείμενο όπως τροποποιήθηκε τελευταία, με τον Ν. 2(I)/2026 (Εφημερίδα Αρ. 5071, 6.2.2026), ως η παλαιότερη διαθέσιμη έκδοση. Το CyLaw παραθέτει τα άρθρα 157ΙΑ-157ΙΔ δύο φορές με το ίδιο κείμενο· χρησιμοποιείται το ένα από τα δύο.
+- **ΚΕΦ.6 πριν από τις 2014-05-23.** Το αρχικό κείμενο, οι Ν. 14/1960 και 11/1965, η ΑΝΑΚ.3374 και οι Ν. 58(I)/2003, 66(I)/2004 και 138(I)/2006 δεν έχουν τεκμηριωμένη ημερομηνία, γι' αυτό η ιστορία αρχίζει μετά τον επόμενο χρονολογημένο νόμο.
+- **Ν. 14/1960 πριν από τις 2022-06-02, Ν. 141(I)/2002 πριν από τις 2013-12-27 και Ν. 52(I)/2022 πριν από τις 2025-10-17.** Οι παλαιότερες εκδόσεις απαιτούν ημέρες δημοσίευσης στην Εφημερίδα που οι διαδικτυακές πηγές δεν δίνουν (για τους περισσότερους νόμους της περιόδου 1960-2021) ή παλαιές διατυπώσεις που κανένα από τα δύο αρχεία δεν διαθέτει (το άρθρο 22Β του Ν. 14/1960· 32 άρθρα του Ν. 52(I)/2022), γι' αυτό οι ιστορίες αρχίζουν αργότερα. Ο Ν. 34(I)/2019 είναι πλήρης από τη θέσπισή του.
+- Οι επικεφαλίδες των Μερών, οι συντακτικές σημειώσεις του CyLaw (Σημείωση) και οι υποσημειώσεις που παραθέτουν μεταβατικές διατάξεις τροποποιητικών νόμων παραλείπονται.
 
-## Dates
+## Ημερομηνίες
 
-- Each commit is dated at **noon, Asia/Nicosia, on the day the change took effect**; the day is also in the `In-force:` trailer, which the tools read.
-- Under the Interpretation Law, Cap. 1, s. 7, a law takes effect on the day of its publication in the Official Gazette unless it provides otherwise. Each law is dated by its Gazette issue. Where a law sets its own commencement in its Gazette text, that day is used and listed in `REPRODUCE.md`: 134(I)/2020 (Cap. 154) from 2020-10-01, and 67(I)/2025 (Constitution, Art. 63) from 2027-07-01.
-- Versions that take effect after the build day are on the branch `mellon`. Today that is 67(I)/2025, which CyLaw's consolidated text already shows.
-- `--before="YYYY-MM-DD"` alone uses your clock's time of day; use `T23:59:59Z`, or the tool.
+- Κάθε commit χρονολογείται στις **12:00 το μεσημέρι, ώρα Asia/Nicosia, την ημέρα που η αλλαγή τέθηκε σε ισχύ**· η ημέρα αναγράφεται επίσης στο trailer `In-force:`, το οποίο διαβάζουν τα εργαλεία.
+- Σύμφωνα με τον περί Ερμηνείας Νόμο, ΚΕΦ.1, άρθρο 7, ένας νόμος τίθεται σε ισχύ την ημέρα της δημοσίευσής του στην Επίσημη Εφημερίδα, εκτός αν ορίζει διαφορετικά. Κάθε νόμος χρονολογείται από το φύλλο της Εφημερίδας στο οποίο δημοσιεύθηκε. Όπου ένας νόμος ορίζει στο κείμενό του στην Εφημερίδα δική του ημερομηνία έναρξης ισχύος, χρησιμοποιείται η ημέρα αυτή και αναγράφεται στο `REPRODUCE.md`: ο Ν. 134(I)/2020 (ΚΕΦ.154) από 2020-10-01 και ο Ν. 67(I)/2025 (Σύνταγμα, Άρθρο 63) από 2027-07-01.
+- Οι εκδόσεις που τίθενται σε ισχύ μετά την ημέρα κατασκευής του αποθετηρίου βρίσκονται στον κλάδο `mellon`. Σήμερα πρόκειται για τον Ν. 67(I)/2025, τον οποίο το ενοποιημένο κείμενο του CyLaw ήδη εμφανίζει.
+- Το `--before="YYYY-MM-DD"` μόνο του χρησιμοποιεί την ώρα της ημέρας του ρολογιού σας· χρησιμοποιήστε `T23:59:59Z` ή το εργαλείο.
 
-## A lawyer's questions as git commands
+## Οι ερωτήσεις ενός νομικού ως εντολές git
 
-| Question | Command |
+| Ερώτηση | Εντολή |
 | --- | --- |
-| What did Article 146 of the Constitution say on 2016-01-01? | `python tools/on.py 2016-01-01 syntagma art-146` |
-| Which law wrote each line? | `git blame poinikos-kodikas/art-145.md` |
-| Every change, word by word | `git log -p --word-diff syntagma/art-111.md` |
-| Every law in the record, in order | `git log --reverse --format="%ad %an" --date=short main` |
-| Everything one law changed | `git show law/<key>` |
+| Τι όριζε το Άρθρο 146 του Συντάγματος την 1η Ιανουαρίου 2016; | `python tools/on.py 2016-01-01 syntagma art-146` |
+| Ποιος νόμος έγραψε κάθε γραμμή; | `git blame poinikos-kodikas/art-145.md` |
+| Κάθε αλλαγή, λέξη προς λέξη | `git log -p --word-diff syntagma/art-111.md` |
+| Κάθε νόμος της ιστορίας, με τη σειρά | `git log --reverse --format="%ad %an" --date=short main` |
+| Όλα όσα άλλαξε ένας νόμος | `git show law/<key>` |
 
-## How it is checked
+## Πώς ελέγχεται
 
-- Every version is read back from git on the day it took effect and on the day before (`tools/check_repo.py`); both must match the corpus. Results are in `REPRODUCE.md`.
-- Every archived copy of a consolidated page is compared, section by section, with the version rebuilt from CyLaw's histories for the same list of laws. Law 125(I)/2018: all 3 copies match. Constitution: all 21 copies match, except where CyLaw later corrected its own transcription (missing words in Arts. 111, 124, 139 and 153, in copies up to October 2019) and Art. 135A, which CyLaw added to its consolidation some months after 130(I)/2025. Cap. 154: every copy since June 2013 matches, except one correction in Art. 5 ("196" completed to "1960"). Cap. 155: all 4 copies (2022-2026) match. Cap. 6: all 4 copies (2022-2025) match. Cap. 113: the newest copy (October 2026) matches; the two 2025 copies differ in 13 and 34 sections that CyLaw later corrected or re-consolidated. Cap. 148: the newest copy (July 2026) matches; the 2022 copy differs in CyLaw's transcription of every section. In every such case the newest wording is used.
-- The last version of each act equals the newest archived consolidated page, section by section.
-- Typesetting is normalised in the same way for every source: spaces, quotes, dashes, the micro and increment signs, and Latin look-alike letters typed inside Greek words (CyLaw itself has corrected many of these over the years).
+- Κάθε έκδοση διαβάζεται ξανά από το git την ημέρα που τέθηκε σε ισχύ και την προηγούμενη ημέρα (`tools/check_repo.py`)· και οι δύο πρέπει να συμφωνούν με τη συλλογή κειμένων. Τα αποτελέσματα βρίσκονται στο `REPRODUCE.md`.
+- Κάθε αρχειοθετημένο αντίγραφο ενοποιημένης σελίδας συγκρίνεται, άρθρο προς άρθρο, με την έκδοση που ανασυντίθεται από τα ιστορικά του CyLaw για τον ίδιο κατάλογο νόμων. Ν. 125(I)/2018: και τα 3 αντίγραφα συμφωνούν. Σύνταγμα: και τα 21 αντίγραφα συμφωνούν, εκτός από τα σημεία όπου το CyLaw διόρθωσε αργότερα τη δική του μεταγραφή (λέξεις που έλειπαν στα Άρθρα 111, 124, 139 και 153, σε αντίγραφα έως τον Οκτώβριο του 2019) και το Άρθρο 135Α, το οποίο το CyLaw πρόσθεσε στην ενοποίησή του μερικούς μήνες μετά τον Ν. 130(I)/2025. ΚΕΦ.154: κάθε αντίγραφο από τον Ιούνιο του 2013 συμφωνεί, εκτός από μία διόρθωση στο άρθρο 5 («196» συμπληρώθηκε σε «1960»). ΚΕΦ.155: και τα 4 αντίγραφα (2022-2026) συμφωνούν. ΚΕΦ.6: και τα 4 αντίγραφα (2022-2025) συμφωνούν. ΚΕΦ.113: το νεότερο αντίγραφο (Οκτώβριος 2026) συμφωνεί· τα δύο αντίγραφα του 2025 διαφέρουν σε 13 και 34 άρθρα, τα οποία το CyLaw αργότερα διόρθωσε ή ενοποίησε εκ νέου. ΚΕΦ.148: το νεότερο αντίγραφο (Ιούλιος 2026) συμφωνεί· το αντίγραφο του 2022 διαφέρει ως προς τη μεταγραφή του CyLaw σε κάθε άρθρο. Σε κάθε τέτοια περίπτωση χρησιμοποιείται η νεότερη διατύπωση.
+- Η τελευταία έκδοση κάθε νομοθετήματος είναι ίδια με τη νεότερη αρχειοθετημένη ενοποιημένη σελίδα, άρθρο προς άρθρο.
+- Η τυπογραφία κανονικοποιείται με τον ίδιο τρόπο για κάθε πηγή: κενά, εισαγωγικά, παύλες, τα σύμβολα micro και increment, και λατινικά γράμματα όμοια με ελληνικά που έχουν πληκτρολογηθεί μέσα σε ελληνικές λέξεις (το ίδιο το CyLaw έχει διορθώσει πολλά από αυτά με τα χρόνια).
 
-## Licence
+## Άδεια χρήσης
 
-- Source: CyLaw (https://www.cylaw.org), Cyprus Bar Association / KINOP. Free to copy and use with CyLaw named as the source (cylaw.org/terms.html). See `LICENSE`.
-- Official Gazette issues from the Government Printing Office of the Republic of Cyprus (www.mof.gov.cy/gpo).
-- Archived copies come from the Internet Archive (https://web.archive.org).
+- Πηγή: CyLaw (https://www.cylaw.org), Παγκύπριος Δικηγορικός Σύλλογος / ΚΙΝΟΠ. Ελεύθερη αντιγραφή και χρήση με αναφορά του CyLaw ως πηγής (cylaw.org/terms.html). Βλ. `LICENSE`.
+- Φύλλα της Επίσημης Εφημερίδας από το Κυβερνητικό Τυπογραφείο της Κυπριακής Δημοκρατίας (www.mof.gov.cy/gpo).
+- Τα αρχειοθετημένα αντίγραφα προέρχονται από το Internet Archive (https://web.archive.org).
 
-## What "author" means
+Αυτή είναι μετάφραση της αγγλικής έκδοσης ([README.en.md](README.en.md))· σε περίπτωση διαφοράς, υπερισχύει η αγγλική έκδοση.
 
-The author of a commit is the law that made the change, with an e-mail address that cannot exist, so `git blame` and `git log --author` name laws. The committer is always Lexifina.
+## Τι σημαίνει «author»
 
-This repository is not legal advice.
+Συντάκτης (author) ενός commit είναι ο νόμος που επέφερε την αλλαγή, με διεύθυνση e-mail που δεν μπορεί να υπάρχει, ώστε τα `git blame` και `git log --author` να κατονομάζουν νόμους. Ο committer είναι πάντα η Lexifina.
 
-## Ελληνικά
+Το αποθετήριο αυτό δεν αποτελεί νομική συμβουλή.
 
-Η νομοθεσία της Κύπρου ως ιστορικό git: ένα αρχείο για κάθε άρθρο και ένα commit για κάθε νόμο, την ημέρα που τέθηκε σε ισχύ, με συγγραφέα τον νόμο που έκανε την αλλαγή. Περιλαμβάνει το Σύνταγμα (από 17.7.2013), τον Ποινικό Κώδικα, ΚΕΦ.154 (από 7.4.2017), τον περί Ποινικής Δικονομίας Νόμο, ΚΕΦ.155 (από 21.2.2014), τον περί Αστικών Αδικημάτων Νόμο, ΚΕΦ.148 (το κείμενο μετά τον Ν. 66(I)/2012), τον περί Εταιρειών Νόμο, ΚΕΦ.113 (το κείμενο μετά τον Ν. 2(I)/2026), τον περί Πολιτικής Δικονομίας Νόμο, ΚΕΦ.6 (από 23.5.2014), τον περί Δικαστηρίων Νόμο του 1960 (από 2.6.2022), τον περί Αρχείου Πληθυσμού Νόμο του 2002 (από 27.12.2013), τον περί Ξενοδοχείων και Τουριστικών Καταλυμάτων Νόμο του 2019 (από τη θέσπισή του), τον περί Δήμων Νόμο του 2022 (το κείμενο μετά τον Ν. 177(I)/2025) και τον Νόμο 125(I)/2018 για την προστασία δεδομένων προσωπικού χαρακτήρα. Τα κείμενα προέρχονται από το CyLaw (www.cylaw.org, Παγκύπριος Δικηγορικός Σύλλογος / ΚΙΝΟΠ). Κάθε νόμος χρονολογείται με την ημερομηνία δημοσίευσής του στην Επίσημη Εφημερίδα της Δημοκρατίας (περί Ερμηνείας Νόμος, ΚΕΦ.1, άρθρο 7), εκτός αν ο ίδιος ορίζει διαφορετικά. Παλαιότερες εκδόσεις παραλείπονται όπου η ημερομηνία κάποιου τροποποιητικού νόμου δεν μπορεί να τεκμηριωθεί. Δεν αποτελεί νομική συμβουλή.
+## Περισσότερα
+
+Από το αποθετήριο [lexifina/global-law](https://github.com/lexifina/global-law) (στα αγγλικά):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): όλες οι λειτουργίες και τι πρέπει να υποστηρίζει κάθε συλλογή (`git blame`, `law.py`, εργαλεία MCP)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): ερωτήσεις και απαντήσεις · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): πρόταση αλλαγών · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): διακομιστής MCP · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): πώς δημιουργήθηκε · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): πόσο ενημερωμένη είναι κάθε συλλογή · [Παρακολούθηση](https://github.com/lexifina/global-law/tree/main/monitoring): αν οι ενημερώσεις λειτουργούν · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): πώς παρακολουθείται κάθε επίσημη πηγή για αλλαγές
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): πόσο γρήγορα είναι τα εργαλεία, με μετρήσεις
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): γραφήματα και συνδέσεις σε όλο το δίκαιο του κόσμου
+- [Ευπάθειες](https://github.com/lexifina/global-law/tree/main/vulnerabilities): σφάλματα στα νομοθετήματα όπως δημοσιεύθηκαν
