@@ -30,7 +30,8 @@
 
 - **[Ρωτήστε το Claude για το κυπριακό δίκαιο](https://global-law.lexifina.com/v1/try_claude?country=cyprus)**: ανοίγει το Claude με έτοιμη την πρώτη ερώτηση.
 - **[Ρωτήστε το ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=cyprus)**: η ίδια ερώτηση στο ChatGPT.
-- **[Καλέστε το API στον φυλλομετρητή](https://global-law.lexifina.com/v1/search_law?query=%CE%B4%CE%B5%CE%B4%CE%BF%CE%BC%CE%AD%CE%BD%CE%B1+%CF%80%CF%81%CE%BF%CF%83%CF%89%CF%80%CE%B9%CE%BA%CE%BF%CF%8D+%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%AE%CF%81%CE%B1&jurisdictions=cyprus)**: αναζήτηση στο κυπριακό δίκαιο για «δεδομένα προσωπικού χαρακτήρα», με απάντηση σε JSON. Η τεκμηρίωση είναι [εδώ](https://lexifina.com/api/global-law).
+- **[Αναζητήστε στο κυπριακό δίκαιο στον ιστότοπό μας](https://lexifina.com/law?country=cyprus&q=%CE%B4%CE%B5%CE%B4%CE%BF%CE%BC%CE%AD%CE%BD%CE%B1+%CF%80%CF%81%CE%BF%CF%83%CF%89%CF%80%CE%B9%CE%BA%CE%BF%CF%8D+%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%AE%CF%81%CE%B1)**: αναζήτηση για «δεδομένα προσωπικού χαρακτήρα», με το κείμενο κάθε διάταξης και τις εκδοχές της, χωρίς λογαριασμό.
+- **[REST API για προγραμματιστές](https://global-law.lexifina.com/v1/search_law?query=%CE%B4%CE%B5%CE%B4%CE%BF%CE%BC%CE%AD%CE%BD%CE%B1+%CF%80%CF%81%CE%BF%CF%83%CF%89%CF%80%CE%B9%CE%BA%CE%BF%CF%8D+%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%AE%CF%81%CE%B1&jurisdiction=cyprus)**: η ίδια αναζήτηση σε JSON, χωρίς κλειδί. Η τεκμηρίωση είναι [εδώ](https://lexifina.com/api/global-law).
 
 Και οι δύο βοηθοί διαβάζουν το αρχείο μέσω του δωρεάν συνδέσμου Global law (MCP, `https://global-law.lexifina.com/mcp`)· την πρώτη φορά η συνομιλία σάς δίνει τον σύνδεσμο που τον προσθέτει. Ρωτήστε στα ελληνικά ή στα αγγλικά.
 
