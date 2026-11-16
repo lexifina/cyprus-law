@@ -61,6 +61,7 @@ Each change is credited to the law that made it (`Ν. 130(I)/2025`), with an e-m
 - Every archived copy of a consolidated CyLaw page is compared, section by section, with the version rebuilt for the same list of laws; where CyLaw later corrected its own transcription, the newest wording is used. The last version of each act equals the newest archived consolidated page.
 - Typesetting is normalised in the same way for every source (spaces, quotes, dashes, Latin look-alike letters inside Greek words); the wording is not changed.
 - History is append-only: no merge commits, no commit dates going backwards, no commit dated after the build, and every commit's trailers parse.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -81,6 +82,10 @@ Each change is credited to the law that made it (`Ν. 130(I)/2025`), with an e-m
 See [`LICENSE`](LICENSE). CyLaw's [terms](https://www.cylaw.org/terms.html) let legislation on the site be copied, printed and used free of charge provided CyLaw is named as the source; they need its written consent for bulk or automated downloading, so no page was downloaded from cylaw.org: every page was read from an Internet Archive copy. Neither CyLaw, KINOP nor the Cyprus Bar Association endorses this repository.
 
 No AI model wrote, translated or corrected legal text; the scripts were written by an AI model, and no model runs when the history is built (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 
